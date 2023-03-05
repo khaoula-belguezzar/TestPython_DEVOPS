@@ -23,3 +23,11 @@ def test_get_age():
     age = get_age(yyyy, mm, dd)
     # Then.
     assert age == 26 
+    
+#fonction 3
+def inc(x):
+    return x - 1
+
+#tset fonction 3
+def test_answer():
+    assert inc(3) == 2
