@@ -37,10 +37,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-<<<<<<< HEAD
         export PYTHONPATH=src
-=======
->>>>>>> dc1e6ff576528a04f0a4154f3b5fc43465b315ac
         pytest
         
         
