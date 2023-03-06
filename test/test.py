@@ -1,7 +1,7 @@
 from app import inc
 from app import get_age
 from app import deinc
-from app import hehe
+
 #test fonction 1
 def test_answer1():
     assert inc(1) == 2
@@ -15,7 +15,6 @@ def test_get_age():
     # Then.
     assert age == 25 
     
-
 #tset fonction 3
 def test_answer2():
     assert deinc(3) == 2
