@@ -10,4 +10,4 @@ def test_answer2():
     
 #tset fonction 3
 def test_answer3():
-    assert app.deinc(3) == 2
+    assert app.soustraction(7) == 5
