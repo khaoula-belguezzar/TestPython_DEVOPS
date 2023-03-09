@@ -6,7 +6,7 @@ def test_answer1():
 
 #test fonction 2
 def test_answer2():
-    assert app.ajouter(2) == 7
+    assert app.multiplication(5,2) == 10
     
 #tset fonction 3
 def test_answer3():

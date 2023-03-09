@@ -3,8 +3,8 @@ def inc(x):
     return x + 1
 
 #fonction 2
-def ajouter(x):
-    return x + 5
+def multiplication(x,y):
+    return x * y
  
 #fonction 3
 def deinc(x):
