@@ -25,6 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install pylint
 
       - name: Run tests
         run: |
@@ -39,4 +40,7 @@ jobs:
           steps : ${{ toJson(steps) }}
           channel : '#test_dev_osp'
         if : always()
+      - name : Analysing the code with pylint
+        run : |
+          pylint $(git ls-files '*.py')
       
