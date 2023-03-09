@@ -1,11 +1,13 @@
-# fonction 1
-def inc(x):
-    return x + 1
+'''no module'''
 
-#fonction 2
-def multiplication(x,y):
-    return x * y
- 
-#fonction 3
-def soustraction(x):
-    return x - 2
+def inc(a_num):
+    '''fonction 1'''
+    return a_num + 1
+
+def multiplication(x_num1,y_num2):
+    '''fonction 2'''
+    return x_num1 * y_num2
+
+def soustraction(b_num):
+    '''fonction 3'''
+    return b_num - 2
